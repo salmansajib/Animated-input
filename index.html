@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;500&family=Playfair+Display:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/Font awesome/css/all.css" />
+    <link rel="stylesheet" href="/style.css" />
+    <title>Animated signUp page</title>
+  </head>
+  <body>
+    <main class="main-container">
+      <div class="signup-detail-wrapper">
+        <div class="signup-detail">
+          <div class="logo split">
+            <i class="fa-solid fa-brush logo__icon"></i>
+            <h1 class="logo__name">Brush</h1>
+          </div>
+          <form action="#">
+            <h1 class="form__title">Get started</h1>
+            <p class="form__subtitle">Please enter your detail</p>
+
+            <div class="inputs-and-buttons split">
+              <div class="input-wrapper">
+                <input
+                  type="text"
+                  class="input-name"
+                  name="name"
+                  id="name"
+                  autocomplete="off"
+                  required
+                />
+                <label for="name" class="label-name">
+                  <span class="placeholder">Name</span>
+                </label>
+              </div>
+
+              <div class="input-wrapper">
+                <input
+                  type="email"
+                  class="input-name"
+                  name="email"
+                  id="email"
+                  autocomplete="off"
+                  required
+                />
+                <label for="email" class="label-name">
+                  <span class="placeholder">Email</span>
+                </label>
+              </div>
+
+              <div class="input-wrapper">
+                <input
+                  type="password"
+                  class="input-name"
+                  name="password"
+                  id="password"
+                  autocomplete="off"
+                  required
+                />
+                <label for="password" class="label-name">
+                  <span class="placeholder">Password</span>
+                </label>
+              </div>
+              <button class="signup-btn" type="submit">Sign up</button>
+              <div class="altarnative-signin">
+                <p>or sign in using</p>
+                <div class="altarnative-signin__buttons split">
+                  <button class="google-btn split">
+                    <i class="fa-brands fa-google google-btn__icon"></i>
+                    <span class="google-btn__name">Google</span>
+                  </button>
+                  <button class="apple-btn split">
+                    <i class="fa-brands fa-apple apple-btn__icon"></i>
+                    <span class="apple-btn__name">Apple</span>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+
+      <div class="about-page">
+        <h1 class="about-page__title">
+          Sign up and Create your own color palette for your wall
+        </h1>
+      </div>
+    </main>
+  </body>
+</html>
